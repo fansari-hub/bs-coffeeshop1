@@ -2,12 +2,26 @@ body{
     margin:0px;
 }
 
-.price{
-    color: var(--colNitro-Blue);
-    font-size: 33rem;
+
+.heroSection{
+    background-color : var(--colNitro-Pink);
+    box-shadow:inset;
+    padding-left: 100rem;
+    padding-right: 100rem;
+    padding-bottom: 40rem;
+    overflow: auto;  
 }
 
-button{
+.heroSection__left{
+    width: 380rem;
+    padding-top: 100rem;
+    float:left;
+}
+.heroSection__right{
+    float:right;
+}
+
+.button{
     background-color: var(--colNitro-Blue);
     color: var(--colWhite);
     width:180rem;
@@ -18,27 +32,13 @@ button{
     border: none;
 }
 
-.discount{
-    background-color: var(--colGraphite);
-    margin: auto;
-    color: var(--colWhite);
-    width:90%;
-    padding-top: 40rem;
-    padding-bottom: 40rem;
-    margin-top: 200rem;
-    margin-bottom: 200rem;
+.button--product{
+    
+    margin-top: 60rem;
+    margin-bottom: 60rem;
+    margin-left: 40%
 }
 
-.discount p{
-    font-size: 45rem;
-    font-weight: 400;
-    margin: 0px;
-    text-align: center;
-}
-
-.discount b{
-     font-weight: 700;
-}
 
 .productsel {
     /* background-color: yellow; */
@@ -46,23 +46,22 @@ button{
     background-color: var(--colLightGray);
 }
 
-.productsel h2{
+.productsel__title{
     /* background-color: orange; */
     text-align: center;
 }
 
-.productsel button{
-    
-    margin-top: 60rem;
-    margin-bottom: 60rem;
-    margin-left: 40%
+
+.productsel__card__price{
+    color: var(--colNitro-Blue);
+    font-size: 33rem;
 }
 
-.productcard img {
+.productsel__card__img {
     height: 280rem;
 }
 
-.productcard{
+.productsel__card{
     display: block;
     background-color: var(--colWhite);
     width: 330rem;
@@ -76,26 +75,27 @@ button{
     text-align: center;
 }
 
-.featureSection{
-    background-color : var(--colNitro-Pink);
-    box-shadow:inset;
-    padding-left: 100rem;
-    padding-right: 100rem;
+
+.discount{
+    background-color: var(--colGraphite);
+    margin: auto;
+    color: var(--colWhite);
+    width:90%;
+    padding-top: 40rem;
     padding-bottom: 40rem;
-    overflow: auto;  
+    margin-top: 200rem;
+    margin-bottom: 200rem;
 }
 
-.featureSectionLeft, .featureSectionRight{
-    display: inline-block;
+.discount__text{
+    font-size: 45rem;
+    font-weight: 400;
+    margin: 0px;
+    text-align: center;
 }
 
-.featureSectionLeft{
-    width: 380rem;
-    padding-top: 100rem;
-    float:left;
-}
-.featureSectionRight{
-    float:right;
+.discount__text--bold{
+     font-weight: 700;
 }
 
 .footerSection{
@@ -105,12 +105,12 @@ padding-top: 75rem;
 padding-bottom: 75rem;
 }
 
-.footerCard{
+.footerSection__card{
 float: left;
 margin-left: 125rem;
 }
 
-.footerCard p{
+.footerSection__card__text{
     margin-top: 0px;
     margin-bottom: 0px;
 }
