@@ -11,7 +11,7 @@ body{
     background-repeat: no-repeat;
 }
 
-.titleBox{
+.shopMenuBlock__titleBox{
     width: 300rem;
     height: 200rem;
     background-color: var(--colGraphite);
@@ -20,7 +20,7 @@ body{
     margin:auto;
 }
 
-.titleBox h1{
+.shopMenuBlock__titleBox__title{
     margin: 0px;
 }
 
@@ -35,32 +35,22 @@ body{
     margin: 0px;
 }
 
-.shopJumpList a{
-    color: var(--colWhite);
-    text-decoration-line:none;
-}
 
-.shopJumpList ul{
+.shopJumpList__menu{
     list-style: none;
     padding-top: 20rem;
 }
 
-.shopJumpList li{
+.shopJumpList__menu__item{
     display: inline-block;
     padding-left: 20rem; 
     padding-right: 20rem; 
     border-left: 4px solid var(--colNitro-Blue);
 }
 
-.foodCategory h2{
-    text-align: center;
-    margin-top: 0px;
-}
-
-.foodCategory h3{
-    text-align: center;
-    margin-bottom: 5rem;
-    margin-top: 10rem
+.shopJumpList__menu__item__link{
+    color: var(--colWhite);
+    text-decoration-line:none;
 }
 
 .foodCategory{
@@ -69,7 +59,18 @@ body{
     padding-bottom: 20rem;
 }
 
-.foodDesc{
+.foodCategory__sectionTitle{
+    text-align: center;
+    margin-top: 0px;
+}
+
+.foodCategory__itemTitle{
+    text-align: center;
+    margin-bottom: 5rem;
+    margin-top: 10rem
+}
+
+.foodCategory__itemDesc{
     font-style: italic;
     min-width: 30%;
     max-width: 500rem;
@@ -77,8 +78,7 @@ body{
     margin:auto;
 }
 
-
-.price{
+.foodCategory__itemPrice{
     color: var(--colNitro-Blue);
     text-align: center;
     margin-bottom: 0px;
