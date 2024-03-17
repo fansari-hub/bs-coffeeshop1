@@ -4,9 +4,9 @@ body{
 
 .shopMenuBlock {
     background-image: url("../assets/images/coffee-circle.jpg");
-    height: 570px;
+    height: 530rem;
     width: 100%;
-    background-position: center -230px;
+    background-position: center -220px;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -26,7 +26,7 @@ body{
 
 .shopJumpList{
     width:100%;
-    height: 80rem;
+    height: 60rem;
     background-color: var(--colGraphite);
     color: var(--colWhite);
     text-align: center;
@@ -38,7 +38,7 @@ body{
 
 .shopJumpList__menu{
     list-style: none;
-    padding-top: 20rem;
+    padding-top: 15rem;
 }
 
 .shopJumpList__menu__item{
@@ -59,6 +59,14 @@ body{
     padding-bottom: 20rem;
 }
 
+.foodCategory--style1{
+    background-color: Var(--colNitro-Pink);
+}
+
+.foodCategory--style2{
+    background-color: Var(--colLightGray);
+}
+
 .foodCategory__sectionTitle{
     text-align: center;
     margin-top: 0px;
@@ -73,7 +81,7 @@ body{
 .foodCategory__itemDesc{
     font-style: italic;
     min-width: 30%;
-    max-width: 500rem;
+    max-width: 480rem;
     text-align: center;
     margin:auto;
 }

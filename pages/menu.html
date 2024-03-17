@@ -12,21 +12,20 @@
     <title>Coffee Shop - Menu</title>
   </head>
   <body>
-    <div class="sitemenu">
-      <div class="navIcon">
-        <a href="../index.html">
-            <img src="../assets/logos/coffee-beans-logo-and-footer.svg" class="icon" alt="Coffee Logo"/>
-        </a>
+    <div class="sitenav">
+      <div class="sitenav__icon">
+          <a href="../index.html"><img src="../assets/logos/coffee-beans-logo-and-footer.svg" class="icon" alt="Coffee Logo"/></a>
       </div>
-      <div class="navheadTitle"> 
-          <h3>nitro</h3>
+      <div class="sitenav__title">
+          <h3 class="sitenav__title__text">nitro</h3>
       </div>
-      <nav class="sitejumplist">      
-        <ul>
-            <li><a href="../index.html" class="navLink">ABOUT</a></li>
-            <li><a href="./menu.html" class="navLink">MENU</a></li>
-            <li><a href="./menu.html" class="navLinkHighlight">SHOP NOW</a></li>
-        </ul>
+
+      <nav class="sitenav__bar">
+          <ul class="sitenav__bar__menu">
+              <li class="sitenav__bar__menu__item"><a class="sitenav__bar__menu__item__link" href="../index.html">ABOUT</a></li>
+              <li class="sitenav__bar__menu__item"><a class="sitenav__bar__menu__item__link" href="../pages/menu.html">MENU</a></li>
+              <li class="sitenav__bar__menu__item"><a class="sitenav__bar__menu__item__link--highlight" href="../pages/menu.html">SHOP NOW</a></li>
+          </ul>
       </nav>
     </div>
 
@@ -43,7 +42,7 @@
           <li class="shopJumpList__menu__item"><a class="shopJumpList__menu__item__link" href="#pastries">Pastries</a></li>
         </ul>
       </nav>
-      <div class="foodCategory cardStyle1" id="hotDrinks">
+      <div class="foodCategory foodCategory--style1" id="hotDrinks">
         <h2 class="foodCategory__sectionTitle">Hot Drinks</h2>
         <h3 class="foodCategory__itemTitle">In-house Brew</h3>
         <p class="foodCategory__itemDesc">
@@ -60,7 +59,7 @@
         </p>
         <p class="foodCategory__itemPrice">$4.99</p>
       </div>
-      <div class="foodCategory cardStyle2" id="coldDrinks">
+      <div class="foodCategory foodCategory--style2" id="coldDrinks">
         <h2 class="foodCategory__sectionTitle">Cold Drinks</h2>
         <h3 class="foodCategory__itemTitle">Cold Brew</h3>
         <p class="foodCategory__itemDesc">
@@ -76,15 +75,13 @@
         </p>
         <p class="foodCategory__itemPrice">$6.99</p>
       </div>
-      <div class="foodCategory cardStyle1" id="pastries">
-        <h2 class="foodCategory__sectionTitle">Patries</h2>
+      <div class="foodCategory foodCategory--style1" id="pastries">
+        <h2 class="foodCategory__sectionTitle">Pastries</h2>
         <h3 class="foodCategory__itemTitle">Bacon Oatmeal Raisin Cookie</h3>
         <p class="foodCategory__itemDesc">
           An infused bacon, sugar and egg mixture is folded into a perfect blend
           of oats, flour, raisins and cinnamon to create a soft and chewy
-          textured cookie.
-        </p>
-        <p></p>
+          textured cookie.</p>
         <p class="foodCategory__itemPrice">$3.50</p>
         <h3 class="foodCategory__itemTitle">Blueberry, Lemon and Thyme Muffin</h3>
         <p class="foodCategory__itemDesc">
