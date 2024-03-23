@@ -21,24 +21,39 @@ body{
     float:right;
 }
 
-.button{
+
+.button__offsetbackground{
     background-color: var(--colNitro-Blue);
-    color: var(--colWhite);
+    width:177rem;
+    height: 57rem;
+    position: relative;
+    margin-top:40rem;
+}
+
+.button__offsetbackground--product{
+    margin:auto;
+}
+
+.button{
     width:180rem;
+    height: 60rem;
     font-size: 20rem; 
+    color: var(--colWhite);
     margin-top: 20rem;
     padding-top: 20rem;
     padding-bottom: 20rem;
     border: none;
+    background-color: var(--colNitro-Blue);
 }
 
-.button--product{
-    margin-top: 60rem;
-    margin-bottom: 60rem;
-    margin-left: 40%;
+.button--offset{
+    margin-top: 0px;
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    background-color: transparent;
+    border: 2px solid var(--colGraphite);
 }
-
-
 
 .productsel {
     overflow: auto;
@@ -120,7 +135,8 @@ body{
 
 .productsel__bottom{
     /* background-color: green; */
-    padding-top : 0rem;
+    padding-top : 60rem;
+    padding-bottom: 60rem;
     background-color: var(--colLightGray);
 }
 
@@ -144,6 +160,16 @@ body{
     justify-content: center;
     width: 400rem;
     height: 400rem;
+    position: relative;
+}
+
+.corpinfoCont__right__border{
+    position:absolute;
+    top:-20px;
+    left:-20px;
+    width: 400rem;
+    height: 400rem;
+    border: 5px solid var(--colNitro-Blue);
 }
 
 .corpinfoCont__text{
@@ -179,14 +205,32 @@ body{
 
 .footerSection{
 background-color: var(--colNitro-Pink);
-overflow: auto;
+display: flex;
+justify-content: space-around;
 padding-top: 75rem;
 padding-bottom: 75rem;
+position: relative;
+}
+
+.footerSection__leftImg{
+    position: absolute;
+    width: 120px;
+    opacity: 25%;
+    left:-40px;
+    top:20px;
+}
+
+.footerSection__rightImg{
+    position: absolute;
+    width: 120px;
+    opacity: 25%;
+    right:-40px;
+    bottom:0px;
+
 }
 
 .footerSection__card{
-float: left;
-margin-left: 125rem;
+background-color: var(--colNitro-Pink);
 }
 
 .footerSection__card__text{

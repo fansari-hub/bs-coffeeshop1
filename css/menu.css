@@ -22,6 +22,16 @@ body{
     height: 200rem;
     background-color: var(--colGraphite);
     color: var(--colWhite);
+    position: relative;
+}
+
+.shopMenuBlock__titleBox__border{
+    position:absolute;
+    top:-15px;
+    left:-15px;
+    width: 295rem;
+    height: 195rem;
+    border: 5px solid var(--colNitro-Blue);
 }
 
 .shopMenuBlock__titleBox__title{

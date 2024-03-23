@@ -61,9 +61,11 @@
             Coffee is a brewed drink prepared from roasted coffee beans, the
             seeds of berries from certain Coffea species.
           </p>
-          <a href="./pages/menu.html"
-            ><button class="button">SHOP NOW</button></a
-          >
+          <div class="button__offsetbackground">
+            <a href="./pages/menu.html">
+              <button class="button button--offset">SHOP NOW</button>
+            </a>
+          </div>
         </div>
         <div class="heroSection__right">
           <img src="./assets/images/coffeebeans-hero.png" alt="coffee bag" />
@@ -137,9 +139,11 @@
         </div>
       </div>
       <div class="productsel__bottom">
-        <a href="./pages/menu.html">
-          <button class="button button--product">VIEW ALL</button>
-        </a>
+        <div class="button__offsetbackground button__offsetbackground--product">
+          <a href="./pages/menu.html">
+            <button class="button button--offset">VIEW ALL</button>
+          </a>
+        </div>
       </div>
       <!-- End Product Section -->
       <div class ="corpinfoCont">
@@ -154,11 +158,14 @@
             <img class="icon" src="./assets/images/coffee-beans.svg" alt="beans"/>
             <img class="icon" src="./assets/images/coffee-cup.svg" alt="cup"/>
           </div>
-          <button class="button">LEARN MORE</button>
+          <div class="button__offsetbackground">
+            <button class="button button--offset">LEARN MORE</button>
+            </div>
         </div>
 
         <div class="corpinfoCont__right">
           <img src="./assets/images/tiltedcan.png" alt="tiltedcan"/>
+          <div class="corpinfoCont__right__border"></div>
         </div>
       </div>
       <!-- Begin Discount Section -->
@@ -173,6 +180,7 @@
     <!-- End Main Content -->
   </body>
   <footer class="footerSection">
+    <img class="footerSection__leftImg" src="/assets/logos/coffee-beans-logo-and-footer.svg"/>
     <div class="footerSection__card">
       <h3 class="footerSection__card__title">Address</h3>
       <p class="footerSection__card__text">503 Broadway Pentouse</p>
@@ -203,5 +211,6 @@
           class="icon"
       /></a>
     </div>
+    <img class="footerSection__rightImg" src="/assets/logos/coffee-beans-logo-and-footer.svg"/>
   </footer>
 </html>
