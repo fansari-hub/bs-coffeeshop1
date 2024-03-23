@@ -1,18 +1,14 @@
+@use './colors' as *;
+
 // Begin Global Partial
 :root{
-    --colNitro-Blue : #5bacc3;
-    --colNitro-Pink : #fff0ed;
-    --colGraphite : #393939;
-    --colLightGray: #F7F7F7;
-    --colWhite: #FFFFFF;
     font-size: 1px;
 }
-
 
 body {
     font-family: 'Open Sans';
     font-weight: 400;
-    color: var(--colGraphite);
+    color: $colGraphite;
     margin: 0px;
 }
 
@@ -55,7 +51,7 @@ p b{
     height: 100rem;
     margin: 0px;
     padding: 0px;
-    background-color: var(--colNitro-Pink);
+    background-color: $colNitro-Pink;
     display: flex;
     justify-content: space-between;
 
@@ -104,13 +100,13 @@ p b{
                     padding:0px;
                     margin:0px;
                     text-decoration: none;
-                    color: var(--colGraphite);
+                    color: $colGraphite;
 
                     &--highlight{
                         padding:0px;
                         margin:0px;
                         text-decoration: none;
-                        color: var(--colNitro-Blue);
+                        color: $colNitro-Blue;
                     }
                 }
             }

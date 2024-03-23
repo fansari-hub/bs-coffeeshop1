@@ -1,3 +1,5 @@
+@use './colors' as *;
+
 @keyframes anim__resetpos{
     100%{   top: 0px;
             left: 0px;
@@ -14,5 +16,5 @@
 }
 
 @keyframes cycle_colors{
-    100%{background-color: var(--colNitro-Blue);}
+    100%{background-color: $colNitro-Blue;}
 }

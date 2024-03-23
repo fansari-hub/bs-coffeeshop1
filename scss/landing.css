@@ -1,16 +1,11 @@
 :root {
-  --colNitro-Blue: #5bacc3;
-  --colNitro-Pink: #fff0ed;
-  --colGraphite: #393939;
-  --colLightGray: #F7F7F7;
-  --colWhite: #FFFFFF;
   font-size: 1px;
 }
 
 body {
   font-family: "Open Sans";
   font-weight: 400;
-  color: var(--colGraphite);
+  color: #393939;
   margin: 0px;
 }
 
@@ -52,7 +47,7 @@ p b {
   height: 100rem;
   margin: 0px;
   padding: 0px;
-  background-color: var(--colNitro-Pink);
+  background-color: #fff0ed;
   display: flex;
   justify-content: space-between;
 }
@@ -97,13 +92,13 @@ p b {
   padding: 0px;
   margin: 0px;
   text-decoration: none;
-  color: var(--colGraphite);
+  color: #393939;
 }
 .sitenav__bar__menu__item__link--highlight {
   padding: 0px;
   margin: 0px;
   text-decoration: none;
-  color: var(--colNitro-Blue);
+  color: #5bacc3;
 }
 
 @keyframes anim__resetpos {
@@ -122,11 +117,11 @@ p b {
 }
 @keyframes cycle_colors {
   100% {
-    background-color: var(--colNitro-Blue);
+    background-color: #5bacc3;
   }
 }
 .heroSection {
-  background-color: var(--colNitro-Pink);
+  background-color: #fff0ed;
   padding-left: 40rem;
   padding-right: 40rem;
   padding-bottom: 40rem;
@@ -140,7 +135,7 @@ p b {
 }
 
 .button__offsetbackground {
-  background-color: var(--colNitro-Blue);
+  background-color: #5bacc3;
   width: 177rem;
   height: 57rem;
   position: relative;
@@ -154,12 +149,12 @@ p b {
   width: 180rem;
   height: 60rem;
   font-size: 20rem;
-  color: var(--colWhite);
+  color: #FFFFFF;
   margin-top: 20rem;
   padding-top: 20rem;
   padding-bottom: 20rem;
   border: none;
-  background-color: var(--colNitro-Blue);
+  background-color: #5bacc3;
 }
 .button--withoffset {
   margin-top: 0px;
@@ -167,7 +162,7 @@ p b {
   top: -6px;
   left: -6px;
   background-color: transparent;
-  border: 2px solid var(--colGraphite);
+  border: 2px solid #393939;
 }
 .button--withoffset:hover {
   animation: anim__resetpos;
@@ -176,7 +171,7 @@ p b {
 }
 
 .productsel {
-  background-color: var(--colLightGray);
+  background-color: #F7F7F7;
 }
 .productsel__container {
   display: flex;
@@ -190,7 +185,7 @@ p b {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: var(--colWhite);
+  background-color: #FFFFFF;
   width: 330rem;
   height: 440rem;
   padding-top: 40rem;
@@ -210,7 +205,7 @@ p b {
 .productsel__card__bottomCont {
   display: flex;
   justify-content: space-evenly;
-  background-color: var(--colNitro-Pink);
+  background-color: #fff0ed;
   border-radius: 0px 0px 10px 10px;
   width: 100%;
   padding-bottom: 5px;
@@ -235,14 +230,14 @@ p b {
   align-items: center;
 }
 .productsel__card__bottomCont__right__price {
-  color: var(--colNitro-Blue);
+  color: #5bacc3;
   font-size: 33rem;
   font-weight: 700;
 }
 .productsel__bottom {
   padding-top: 60rem;
   padding-bottom: 60rem;
-  background-color: var(--colLightGray);
+  background-color: #F7F7F7;
 }
 
 .corpinfoCont {
@@ -281,7 +276,7 @@ p b {
   left: -20px;
   width: 400rem;
   height: 400rem;
-  border: 5px solid var(--colNitro-Blue);
+  border: 5px solid #5bacc3;
   pointer-events: none;
 }
 .corpinfoCont__rightCont__imgCont {
@@ -303,9 +298,9 @@ p b {
 }
 
 .discount {
-  background-color: var(--colGraphite);
+  background-color: #393939;
   margin: auto;
-  color: var(--colWhite);
+  color: #FFFFFF;
   width: 90%;
   padding-top: 40rem;
   padding-bottom: 40rem;
@@ -327,7 +322,7 @@ p b {
 }
 
 .footerSection {
-  background-color: var(--colNitro-Pink);
+  background-color: #fff0ed;
   display: flex;
   justify-content: space-around;
   padding-top: 75rem;
@@ -349,7 +344,7 @@ p b {
   bottom: 0px;
 }
 .footerSection__card {
-  background-color: var(--colNitro-Pink);
+  background-color: #fff0ed;
 }
 .footerSection__card__text {
   margin-top: 0px;

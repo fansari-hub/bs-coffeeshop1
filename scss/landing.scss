@@ -1,8 +1,9 @@
 @use './partials/global' as *;
+@use './partials/colors' as *;
 @use './partials/anims' as *;
 
 .heroSection{
-    background-color : var(--colNitro-Pink);
+    background-color : $colNitro-Pink;
     padding-left: 40rem;
     padding-right: 40rem; 
     padding-bottom: 40rem;
@@ -17,7 +18,7 @@
 }
 
 .button__offsetbackground{
-    background-color: var(--colNitro-Blue);
+    background-color: $colNitro-Blue;
     width:177rem;
     height: 57rem;
     position: relative;
@@ -32,12 +33,12 @@
     width:180rem;
     height: 60rem;
     font-size: 20rem; 
-    color: var(--colWhite);
+    color: $colWhite;
     margin-top: 20rem;
     padding-top: 20rem;
     padding-bottom: 20rem;
     border: none;
-    background-color: var(--colNitro-Blue);
+    background-color: $colNitro-Blue;
 
     &--withoffset{
         margin-top: 0px;
@@ -45,7 +46,7 @@
         top: -6px;
         left: -6px;
         background-color: transparent;
-        border: 2px solid var(--colGraphite);
+        border: 2px solid $colGraphite;
 
         &:hover{
             animation: anim__resetpos;
@@ -56,7 +57,7 @@
 }
 
 .productsel {
-    background-color: var(--colLightGray);
+    background-color: $colLightGray;
 
     &__container{
         display: flex;
@@ -72,7 +73,7 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        background-color: var(--colWhite);
+        background-color: $colWhite;
         width: 330rem;
         height: 440rem;
         padding-top: 40rem;
@@ -95,7 +96,7 @@
         &__bottomCont{
             display: flex;
             justify-content: space-evenly;
-            background-color: var(--colNitro-Pink);
+            background-color: $colNitro-Pink;
             border-radius: 0px 0px 10px 10px;
             width: 100%;
             padding-bottom: 5px;
@@ -123,7 +124,7 @@
                 align-items: center;
 
                 &__price{
-                    color: var(--colNitro-Blue);
+                    color: $colNitro-Blue;
                     font-size: 33rem;
                     font-weight: 700;
                 }
@@ -134,7 +135,7 @@
     &__bottom{
         padding-top : 60rem;
         padding-bottom: 60rem;
-        background-color: var(--colLightGray);
+        background-color: $colLightGray;
     }
 }
 
@@ -178,7 +179,7 @@
             left:-20px;
             width: 400rem;
             height: 400rem;
-            border: 5px solid var(--colNitro-Blue);
+            border: 5px solid $colNitro-Blue;
             pointer-events: none;
         }
 
@@ -205,9 +206,9 @@
 
 
 .discount{
-    background-color: var(--colGraphite);
+    background-color: $colGraphite;
     margin: auto;
-    color: var(--colWhite);
+    color: $colWhite;
     width:90%;
     padding-top: 40rem;
     padding-bottom: 40rem;
@@ -232,7 +233,7 @@
 
 
 .footerSection{
-background-color: var(--colNitro-Pink);
+background-color: $colNitro-Pink;
 display: flex;
 justify-content: space-around;
 padding-top: 75rem;
@@ -256,7 +257,7 @@ position: relative;
 
     }
     &__card{
-        background-color: var(--colNitro-Pink);
+        background-color: $colNitro-Pink;
         &__text{
             margin-top: 0px;
             margin-bottom: 0px;

@@ -1,4 +1,5 @@
 @use './partials/global' as *;
+@use './partials/colors' as *;
 
 .shopMenuBlock {
     background-image: url("../assets/images/coffee-circle.jpg");
@@ -17,8 +18,8 @@
         align-items: center;
         width: 300rem;
         height: 200rem;
-        background-color: var(--colGraphite);
-        color: var(--colWhite);
+        background-color: $colGraphite;
+        color: $colWhite;
         position: relative;
 
         &__border{
@@ -27,7 +28,7 @@
             left:-15px;
             width: 295rem;
             height: 195rem;
-            border: 5px solid var(--colNitro-Blue);
+            border: 5px solid $colNitro-Blue;
         }
         
         &__title{
@@ -40,8 +41,8 @@
 .shopJumpList{
     width:100%;
     height: 60rem;
-    background-color: var(--colGraphite);
-    color: var(--colWhite);
+    background-color: $colGraphite;
+    color: $colWhite;
     text-align: center;
     text-transform: uppercase;
     padding: 0px;
@@ -55,10 +56,10 @@
             display: inline-block;
             padding-left: 20rem; 
             padding-right: 20rem; 
-            border-left: 4px solid var(--colNitro-Blue);
+            border-left: 4px solid $colNitro-Blue;
 
             &__link{
-                color: var(--colWhite);
+                color: $colWhite;
                 text-decoration-line:none;
             }
         }
@@ -72,11 +73,11 @@
     padding-bottom: 20rem;
 
     &--style1{
-        background-color: Var(--colNitro-Pink);
+        background-color: $colNitro-Pink;
     }
 
     &--style2{
-        background-color: Var(--colLightGray);
+        background-color: $colLightGray;
     }
 
     &__sectionTitle{
@@ -99,7 +100,7 @@
     }
     
     &__itemPrice{
-        color: var(--colNitro-Blue);
+        color: $colNitro-Blue;
         text-align: center;
         margin-bottom: 0px;
         margin-top: 5rem;
