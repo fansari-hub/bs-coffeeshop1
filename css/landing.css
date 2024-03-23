@@ -39,6 +39,7 @@ body{
 }
 
 
+
 .productsel {
     overflow: auto;
     background-color: var(--colLightGray);
@@ -123,6 +124,36 @@ body{
     background-color: var(--colLightGray);
 }
 
+.corpinfoCont{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100rem;
+}
+.corpinfoCont__left{
+    display: flex;
+    flex-direction: column;
+}
+
+.corpinfoCont__right{
+    background-image: url("/assets/images/coldbrewbackground.png");
+    background-size: 400px;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400rem;
+    height: 400rem;
+}
+
+.corpinfoCont__text{
+    width: 460rem;
+}
+
+.corpinfoCont__icons{
+    display: flex;
+    justify-content: space-between;
+}
 
 .discount{
     background-color: var(--colGraphite);

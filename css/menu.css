@@ -4,6 +4,9 @@ body{
 
 .shopMenuBlock {
     background-image: url("../assets/images/coffee-circle.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 530rem;
     width: 100%;
     background-position: center -220px;
@@ -12,12 +15,13 @@ body{
 }
 
 .shopMenuBlock__titleBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 300rem;
     height: 200rem;
     background-color: var(--colGraphite);
     color: var(--colWhite);
-    text-align: center;
-    margin:auto;
 }
 
 .shopMenuBlock__titleBox__title{
