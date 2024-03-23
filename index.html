@@ -13,24 +13,46 @@
   </head>
 
   <body>
+    <!-- Begin Site Navigation Section -->
     <div class="sitenav">
-        <div class="sitenav__icon">
-            <a href="./index.html"><img src="assets/logos/coffee-beans-logo-and-footer.svg" class="icon" alt="Coffee Logo"/></a>
-        </div>
-        <div class="sitenav__title">
-            <h3 class="sitenav__title__text">nitro</h3>
-        </div>
+      <div class="sitenav__icon">
+        <a href="./index.html"
+          ><img
+            src="assets/logos/coffee-beans-logo-and-footer.svg"
+            class="icon"
+            alt="Coffee Logo"
+        /></a>
+      </div>
+      <div class="sitenav__title">
+        <h3 class="sitenav__title__text">nitro</h3>
+      </div>
 
-        <nav class="sitenav__bar">
-            <ul class="sitenav__bar__menu">
-                <li class="sitenav__bar__menu__item"><a class="sitenav__bar__menu__item__link" href="./index.html">ABOUT</a></li>
-                <li class="sitenav__bar__menu__item"><a class="sitenav__bar__menu__item__link" href="./pages/menu.html">MENU</a></li>
-                <li class="sitenav__bar__menu__item"><a class="sitenav__bar__menu__item__link--highlight" href="./pages/menu.html">SHOP NOW</a></li>
-            </ul>
-        </nav>
+      <nav class="sitenav__bar">
+        <ul class="sitenav__bar__menu">
+          <li class="sitenav__bar__menu__item">
+            <a class="sitenav__bar__menu__item__link" href="./index.html"
+              >ABOUT</a
+            >
+          </li>
+          <li class="sitenav__bar__menu__item">
+            <a class="sitenav__bar__menu__item__link" href="./pages/menu.html"
+              >MENU</a
+            >
+          </li>
+          <li class="sitenav__bar__menu__item">
+            <a
+              class="sitenav__bar__menu__item__link--highlight"
+              href="./pages/menu.html"
+              >SHOP NOW</a
+            >
+          </li>
+        </ul>
+      </nav>
     </div>
-
+    <!-- End Site Navigation Section -->
+    <!-- Begin Main Content -->
     <div class="maincontent">
+      <!-- Begin Hero Section -->
       <div class="heroSection">
         <div class="heroSection__left">
           <h1>Nitro Coffee</h1>
@@ -46,49 +68,89 @@
           <img src="./assets/images/coffeebeans-hero.png" alt="coffee bag" />
         </div>
       </div>
+      <!-- End Hero Section -->
+      <!-- Begin Product Section -->
       <div class="productsel">
         <h2 class="productsel__title">Our Products</h2>
-        <div class="productsel__card">
-          <img
-            class="productsel__card__img"
-            src="./assets/images/coffeebeans.png"
-            alt="Coffee Beans"
-          />
-          <h3>Coffee Beans</h3>
-          <p class="productsel__card__price">$18.99</p>
-        </div>
-        <div class="productsel__card">
-          <img
-            class="productsel__card__img"
-            src="./assets/images/coldbrew.png"
-            alt="Cold Brew"
-          />
-          <h3>Cold Brew</h3>
-          <p class="productsel__card__price">$4.99</p>
-        </div>
-        <div class="productsel__card">
-          <img
-            class="productsel__card__img"
-            src="./assets/images/inhousebrew.png"
-            alt="In-house Brew"
-          />
-          <h3>In-house Brew</h3>
-          <p class="productsel__card__price">$2.99</p>
+        <div class="productsel__container">
+          <!-- Begin Product Card -->
+          <div class="productsel__card">
+            <div class="productsel__card__top">
+              <img
+                class="productsel__card__img"
+                src="./assets/images/coffeebeans.png"
+                alt="Coffee Beans"
+              />
+            </div>
+            <div class="productsel__card__bottom">
+              <div class="productsel__card__bottom__left">
+                <h3 class="productsel__card__title">Coffee Beans</h3>
+                <p class="productsel__card__desc">Pack of 3</p>
+              </div>
+              <div class="productsel__card__bottom__right">
+                <p class="productsel__card__price">$19</p>
+              </div>
+            </div>
+          </div>
+          <!-- End product card -->
+          <!-- Begin Product Card -->
+          <div class="productsel__card">
+            <div class="productsel__card__top">
+              <img
+                class="productsel__card__img"
+                src="./assets/images/coldbrew.png"
+                alt="Cold Brew"
+              />
+            </div>
+            <div class="productsel__card__bottom">
+              <div class="productsel__card__bottom__left">
+                <h3 class="productsel__card__title">Cold Brew</h3>
+                <p class="productsel__card__desc">1 Can</p>
+              </div>
+              <div class="productsel__card__bottom__right">
+                <p class="productsel__card__price">$5</p>
+              </div>
+            </div>
+          </div>
+          <!-- End product card -->
+          <!-- Begin Product Card -->
+          <div class="productsel__card">
+            <div class="productsel__card__top">
+              <img
+                class="productsel__card__img"
+                src="./assets/images/inhousebrew.png"
+                alt="In-house Brew"
+              />
+            </div>
+            <div class="productsel__card__bottom">
+              <div class="productsel__card__bottom__left">
+                <h3 class="productsel__card__title">In-house Brew</h3>
+                <p class="productsel__card__desc">1 Cup</p>
+              </div>
+              <div class="productsel__card__bottom__right">
+                <p class="productsel__card__price">$3</p>
+              </div>
+            </div>
+          </div>
+          <!-- End product card -->
         </div>
       </div>
       <div class="productsel__bottom">
         <a href="./pages/menu.html">
-            <button class="button button--product">VIEW ALL</button>
+          <button class="button button--product">VIEW ALL</button>
         </a>
-    </div>
-
+      </div>
+      <!-- End Product Section -->
+      <!-- Begin Discount Section -->
       <div class="discount">
         <p class="discount__text">
           Get 20% off your first order with code:
           <b class="discount__text--bold">FirstNitro</b>
         </p>
       </div>
+      <!-- End Discount Section -->
     </div>
+    <!-- End Main Content -->
   </body>
   <footer class="footerSection">
     <div class="footerSection__card">
