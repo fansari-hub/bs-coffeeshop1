@@ -44,16 +44,18 @@ p b {
 
 .sitenav {
   width: 100%;
-  height: 100rem;
+  height: 90rem;
   margin: 0px;
   padding: 0px;
+  padding-bottom: 20rem;
   background-color: #fff0ed;
   display: flex;
   justify-content: space-between;
+  align-items: end;
 }
 .sitenav__logoContainer {
   display: flex;
-  align-items: flex-start;
+  align-items: end;
 }
 .sitenav__icon {
   margin-top: 20rem;
@@ -62,7 +64,7 @@ p b {
 .sitenav__title {
   background-color: none;
 }
-.sitenav__title__title__text {
+.sitenav__title__text {
   margin: 0px;
   font-size: 50rem;
   margin-right: 20rem;
@@ -122,6 +124,7 @@ p b {
 }
 .heroSection {
   background-color: #fff0ed;
+  padding-top: 30rem;
   padding-left: 40rem;
   padding-right: 40rem;
   padding-bottom: 40rem;
@@ -172,16 +175,20 @@ p b {
 
 .productsel {
   background-color: #F7F7F7;
-}
-.productsel__container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  padding-top: 60rem;
 }
 .productsel__title {
   text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
-.productsel__card {
+.productsel__cardsCont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: start;
+}
+.productsel__cardsCont__card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -196,13 +203,13 @@ p b {
   border-radius: 10px;
   border-width: 0px;
 }
-.productsel__card__topCont {
+.productsel__cardsCont__card__topCont {
   text-align: center;
 }
-.productsel__card__topCont__img {
+.productsel__cardsCont__card__topCont__img {
   height: 280rem;
 }
-.productsel__card__bottomCont {
+.productsel__cardsCont__card__bottomCont {
   display: flex;
   justify-content: space-evenly;
   background-color: #fff0ed;
@@ -211,32 +218,32 @@ p b {
   padding-bottom: 5px;
   height: 140rem;
 }
-.productsel__card__bottomCont__left {
+.productsel__cardsCont__card__bottomCont__left {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.productsel__card__bottomCont__left__title {
+.productsel__cardsCont__card__bottomCont__left__title {
   font-size: 33rem;
   margin: 0px;
 }
-.productsel__card__bottomCont__left__desc {
+.productsel__cardsCont__card__bottomCont__left__desc {
   font-size: 20rem;
   color: gray;
   margin: 0px;
 }
-.productsel__card__bottomCont__right {
+.productsel__cardsCont__card__bottomCont__right {
   display: flex;
   align-items: center;
 }
-.productsel__card__bottomCont__right__price {
+.productsel__cardsCont__card__bottomCont__right__price {
   color: #5bacc3;
   font-size: 33rem;
   font-weight: 700;
 }
 .productsel__bottom {
-  padding-top: 60rem;
-  padding-bottom: 60rem;
+  padding-top: 30rem;
+  padding-bottom: 50rem;
   background-color: #F7F7F7;
 }
 
@@ -251,6 +258,9 @@ p b {
   flex-direction: column;
   padding-left: 40rem;
   padding-right: 40rem;
+}
+.corpinfoCont__leftCont__title {
+  margin: 0px;
 }
 .corpinfoCont__leftCont__text {
   width: 460rem;
@@ -323,8 +333,8 @@ p b {
   background-color: #fff0ed;
   display: flex;
   justify-content: space-around;
-  padding-top: 75rem;
-  padding-bottom: 75rem;
+  padding-top: 50rem;
+  padding-bottom: 50rem;
   position: relative;
 }
 .footerSection__leftImg {

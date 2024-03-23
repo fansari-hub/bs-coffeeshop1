@@ -6,7 +6,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 530rem;
+    height: 575rem;
     width: 100%;
     background-position: center -220px;
     background-size: cover;
@@ -40,7 +40,7 @@
 
 .shopJumpList{
     width:100%;
-    height: 60rem;
+    height: 65rem;
     background-color: $colGraphite;
     color: $colWhite;
     text-align: center;
@@ -70,7 +70,7 @@
 .foodCategory{
     margin: 0px;
     padding-top: 10rem;
-    padding-bottom: 20rem;
+    padding-bottom: 40rem;
 
     &--style1{
         background-color: $colNitro-Pink;

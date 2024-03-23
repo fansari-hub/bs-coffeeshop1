@@ -44,16 +44,18 @@ p b {
 
 .sitenav {
   width: 100%;
-  height: 100rem;
+  height: 90rem;
   margin: 0px;
   padding: 0px;
+  padding-bottom: 20rem;
   background-color: #fff0ed;
   display: flex;
   justify-content: space-between;
+  align-items: end;
 }
 .sitenav__logoContainer {
   display: flex;
-  align-items: flex-start;
+  align-items: end;
 }
 .sitenav__icon {
   margin-top: 20rem;
@@ -62,7 +64,7 @@ p b {
 .sitenav__title {
   background-color: none;
 }
-.sitenav__title__title__text {
+.sitenav__title__text {
   margin: 0px;
   font-size: 50rem;
   margin-right: 20rem;
@@ -106,7 +108,7 @@ p b {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 530rem;
+  height: 575rem;
   width: 100%;
   background-position: center -220px;
   background-size: cover;
@@ -136,7 +138,7 @@ p b {
 
 .shopJumpList {
   width: 100%;
-  height: 60rem;
+  height: 65rem;
   background-color: #393939;
   color: #FFFFFF;
   text-align: center;
@@ -162,7 +164,7 @@ p b {
 .foodCategory {
   margin: 0px;
   padding-top: 10rem;
-  padding-bottom: 20rem;
+  padding-bottom: 40rem;
 }
 .foodCategory--style1 {
   background-color: #fff0ed;
