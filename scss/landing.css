@@ -287,10 +287,8 @@ p b {
   padding: 0px;
   justify-content: center;
   align-items: center;
-  /* background-color: blue; */
 }
 .corpinfoCont__rightCont__imgCont:hover {
-  /* background-color: brown; */
   animation: anim__rotate;
   animation-duration: 2s;
   animation-iteration-count: infinite;
