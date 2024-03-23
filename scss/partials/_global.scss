@@ -1,3 +1,4 @@
+// Begin Global Partial
 :root{
     --colNitro-Blue : #5bacc3;
     --colNitro-Pink : #fff0ed;
@@ -12,6 +13,7 @@ body {
     font-family: 'Open Sans';
     font-weight: 400;
     color: var(--colGraphite);
+    margin: 0px;
 }
 
 h1,h2 {
@@ -56,68 +58,63 @@ p b{
     background-color: var(--colNitro-Pink);
     display: flex;
     justify-content: space-between;
-}
 
-.sitenav__logoContainer{
-    display: flex;
-    align-items: flex-start;
-}
+    &__logoContainer{
+        display: flex;
+        align-items: flex-start;
+    }
 
-.sitenav__icon{
-    margin-top: 20rem;
-    margin-left: 20rem;
-    /* background-color: olive; */
-}
+    &__icon{
+        margin-top: 20rem;
+        margin-left: 20rem;
+    }
 
-.sitenav__title{
-    /* background-color: aqua; */
-}
+    &__title{
+        background-color: none;
 
-.sitenav__title__text{
-    margin : 0px;
-    font-size: 50rem;
-    margin-right: 20rem;
-}
+        &__title__text{
+            margin : 0px;
+            font-size: 50rem;
+            margin-right: 20rem;
+        }
+    }
 
-.sitenav__bar{
-    width: 50%;
-    margin: 0px 0px 0px 0px;
-    padding: 0px;
-    display: flex;
-    align-items: center;
-    /* background-color:orange; */
-}
+    &__bar{
+        width: 50%;
+        margin: 0px 0px 0px 0px;
+        padding: 0px;
+        display: flex;
+        align-items: center;
 
-.sitenav__bar__menu{
-    /* display: inline-block; */
-    display:flex;
-    justify-content: flex-end;
-    width: 100%;
-    list-style: none;
-    margin-right: 20rem;
-    padding: 0px 0px 10rem 0px;
-    /* background-color: red; */
-}
+        &__menu{
+            display:flex;
+            justify-content: flex-end;
+            width: 100%;
+            list-style: none;
+            margin-right: 20rem;
+            padding: 0px 0px 10rem 0px;
 
-.sitenav__bar__menu__item{
-    /* display: inline-block; */
-    padding-left: 20rem;
-    margin: 0px;
-    /* background-color: yellowgreen; */
-}
+            &__item{
+                padding-left: 20rem;
+                margin: 0px;
 
-.sitenav__bar__menu__item__link{
-    font-size: 21rem;
-    font-weight:400;
-    padding:0px;
-    margin:0px;
-    text-decoration: none;
-    color: var(--colGraphite);
-}
+                &__link{
+                    font-size: 21rem;
+                    font-weight:400;
+                    padding:0px;
+                    margin:0px;
+                    text-decoration: none;
+                    color: var(--colGraphite);
 
-.sitenav__bar__menu__item__link--highlight{
-    padding:0px;
-    margin:0px;
-    text-decoration: none;
-    color: var(--colNitro-Blue);
+                    &--highlight{
+                        padding:0px;
+                        margin:0px;
+                        text-decoration: none;
+                        color: var(--colNitro-Blue);
+                    }
+                }
+            }
+        }
+    }   
 }
+// End Global Partial

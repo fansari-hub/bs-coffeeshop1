@@ -1,9 +1,5 @@
 @use './partials/global' as *;
 
-body{
-    margin:0px; 
-}
-
 .shopMenuBlock {
     background-image: url("../assets/images/coffee-circle.jpg");
     display: flex;
@@ -14,31 +10,32 @@ body{
     background-position: center -220px;
     background-size: cover;
     background-repeat: no-repeat;
+
+    &__titleBox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300rem;
+        height: 200rem;
+        background-color: var(--colGraphite);
+        color: var(--colWhite);
+        position: relative;
+
+        &__border{
+            position:absolute;
+            top:-15px;
+            left:-15px;
+            width: 295rem;
+            height: 195rem;
+            border: 5px solid var(--colNitro-Blue);
+        }
+        
+        &__title{
+            margin: 0px;
+        }
+    }
 }
 
-.shopMenuBlock__titleBox{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 300rem;
-    height: 200rem;
-    background-color: var(--colGraphite);
-    color: var(--colWhite);
-    position: relative;
-}
-
-.shopMenuBlock__titleBox__border{
-    position:absolute;
-    top:-15px;
-    left:-15px;
-    width: 295rem;
-    height: 195rem;
-    border: 5px solid var(--colNitro-Blue);
-}
-
-.shopMenuBlock__titleBox__title{
-    margin: 0px;
-}
 
 .shopJumpList{
     width:100%;
@@ -49,63 +46,63 @@ body{
     text-transform: uppercase;
     padding: 0px;
     margin: 0px;
+
+    &__menu{
+        list-style: none;
+        padding-top: 15rem;
+
+        &__item{
+            display: inline-block;
+            padding-left: 20rem; 
+            padding-right: 20rem; 
+            border-left: 4px solid var(--colNitro-Blue);
+
+            &__link{
+                color: var(--colWhite);
+                text-decoration-line:none;
+            }
+        }
+    }
 }
 
-
-.shopJumpList__menu{
-    list-style: none;
-    padding-top: 15rem;
-}
-
-.shopJumpList__menu__item{
-    display: inline-block;
-    padding-left: 20rem; 
-    padding-right: 20rem; 
-    border-left: 4px solid var(--colNitro-Blue);
-}
-
-.shopJumpList__menu__item__link{
-    color: var(--colWhite);
-    text-decoration-line:none;
-}
 
 .foodCategory{
     margin: 0px;
     padding-top: 10rem;
     padding-bottom: 20rem;
-}
 
-.foodCategory--style1{
-    background-color: Var(--colNitro-Pink);
-}
+    &--style1{
+        background-color: Var(--colNitro-Pink);
+    }
 
-.foodCategory--style2{
-    background-color: Var(--colLightGray);
-}
+    &--style2{
+        background-color: Var(--colLightGray);
+    }
 
-.foodCategory__sectionTitle{
-    text-align: center;
-    margin-top: 0px;
-}
-
-.foodCategory__itemTitle{
-    text-align: center;
-    margin-bottom: 5rem;
-    margin-top: 10rem
-}
-
-.foodCategory__itemDesc{
-    font-style: italic;
-    min-width: 30%;
-    max-width: 480rem;
-    text-align: center;
-    margin:auto;
-}
-
-.foodCategory__itemPrice{
-    color: var(--colNitro-Blue);
-    text-align: center;
-    margin-bottom: 0px;
-    margin-top: 5rem;
-    font-size: 18rem;
+    &__sectionTitle{
+        text-align: center;
+        margin-top: 0px;
+    }
+    
+    &__itemTitle{
+        text-align: center;
+        margin-bottom: 5rem;
+        margin-top: 10rem
+    }
+    
+    &__itemDesc{
+        font-style: italic;
+        min-width: 30%;
+        max-width: 480rem;
+        text-align: center;
+        margin:auto;
+    }
+    
+    &__itemPrice{
+        color: var(--colNitro-Blue);
+        text-align: center;
+        margin-bottom: 0px;
+        margin-top: 5rem;
+        font-size: 18rem;
+    }
 }

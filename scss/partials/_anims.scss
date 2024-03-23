@@ -1,0 +1,18 @@
+@keyframes anim__resetpos{
+    100%{   top: 0px;
+            left: 0px;
+        }
+}
+
+@keyframes anim__rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes cycle_colors{
+    100%{background-color: var(--colNitro-Blue);}
+}
